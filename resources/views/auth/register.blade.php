@@ -32,12 +32,12 @@ Register - Gainloe
                             <form    method="POST" action="{{ route('register') }}">
                                 @csrf
 
-                                <div   class="form-group row  justify-content-center ">
+                                <div class="form-group row  justify-content-center ">
 
-                                    <div   class="col-md-6">
-                                        <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" placeholder="{{ __('Name') }}" autofocus>
+                                    <div class="col-md-6">
+                                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required placeholder="{{ __('E-Mail Address') }}" autocomplete="email">
 
-                                        @error('name')
+                                        @error('email')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
                                             </span>
@@ -48,9 +48,9 @@ Register - Gainloe
                                 <div class="form-group row  justify-content-center ">
 
                                     <div class="col-md-6">
-                                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required placeholder="{{ __('E-Mail Address') }}" autocomplete="email">
+                                        <input id="address" type="text" class="form-control @error('address') is-invalid @enderror" name="address" value="{{ old('address') }}" required placeholder="{{ __('Address') }}" autocomplete="street-address">
 
-                                        @error('email')
+                                        @error('address')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
                                             </span>

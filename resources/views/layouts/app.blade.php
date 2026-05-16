@@ -34,14 +34,58 @@
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/js/mdb.min.js"></script>
-                       <!-- Font Awesome -->
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-              <!--google fonts-->
-             <link  href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Acme&family=Balsamiq+Sans&family=Bowlby+One+SC&family=Fredoka+One&family=Josefin+Sans:wght@700&family=Lobster&display=swap" rel="stylesheet">
-                  <!--google fonts closed-->
-              
+            <!-- Modern Fonts -->
+            <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+            
+            <style>
+                :root {
+                    --primary-color: #2D5A27;
+                    --secondary-color: #4CAF50;
+                    --accent-color: #FFC107;
+                    --text-main: #2C3E50;
+                    --text-muted: #7F8C8D;
+                    --bg-light: #F8FAF9;
+                    --white: #FFFFFF;
+                    --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+                    --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+                    --shadow-lg: 0 10px 25px rgba(0,0,0,0.1);
+                    --radius: 12px;
+                    --transition: all 0.3s ease;
+                }
+
+                body {
+                    font-family: 'Inter', sans-serif;
+                    color: var(--text-main);
+                    background-color: var(--bg-light) !important;
+                    background-image: radial-gradient(var(--secondary-color) 0.5px, transparent 0.5px);
+                    background-size: 30px 30px;
+                    background-attachment: fixed;
+                    background-opacity: 0.05;
+                }
+
+                h1, h2, h3, h4, h5, h6 {
+                    font-family: 'Outfit', sans-serif;
+                    font-weight: 600;
+                }
+
+                .modern-card {
+                    background: var(--white);
+                    border-radius: var(--radius);
+                    box-shadow: var(--shadow-md);
+                    transition: var(--transition);
+                    border: none;
+                }
+
+                .btn-modern {
+                    border-radius: 50px;
+                    padding: 12px 28px;
+                    font-weight: 600;
+                    text-transform: none;
+                    transition: var(--transition);
+                }
+            </style>
     </head>
-    <body id="body" class="contentfont" style="background:white;">
+    <body id="body" class="contentfont">
      
        
      @yield('content') 

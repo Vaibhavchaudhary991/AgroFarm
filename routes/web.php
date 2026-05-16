@@ -179,5 +179,12 @@ Route::get('payu/response', function () {
  
 /*
 |---------------------------------------------------------------------------
+|Pest Identification Routes
+|----------------------------------------------------------------------------*/
+Route::get('api/crops', 'PestController@getCrops');
+Route::get('api/pests/{cropId}', 'PestController@getPestsByCrop');
+Route::post('api/identify-pest', 'PestController@identify');
+/*
+|---------------------------------------------------------------------------
 |Payment Routes  Ends Here
 |----------------------------------------------------------------------------*/

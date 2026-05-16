@@ -26,11 +26,7 @@
                     <input type="text" placeholder="City"   name="city" value="{{Auth::user()->city}}" class="form-control">
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                    
-                    <input type="text"     placeholder="Pincode"   name="pincode"  value="{{Auth::user()->pincode}}"  class="form-control">
-                    </div>
+                </div>
             </div>
             
         
@@ -48,19 +44,7 @@
                 </div>
             
         
-                <div class="col-md-12">
-                    <div class="form-group">
-                
-                    <input type="number"  placeholder="Mobile No"   name="mno" class="form-control" value="{{Auth::user()->mnumber}}">
-                    </div>
-                </div>
 
-                <div class="col-md-12   ">
-                    <div class="form-group">
-                    
-                    <input type="number"  name="alternativemno" placeholder="Alternative Mobile Number"  class="form-control" value="{{Auth::user()->alternativemno}}">
-                    </div>
-                </div>
             
                     
                 

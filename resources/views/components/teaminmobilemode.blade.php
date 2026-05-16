@@ -1,97 +1,25 @@
-<h1 class="black-text" style="font-weight:bold;">OUR TEAM</h1>
-    <div  style="border-bottom: 2px solid black;width:100px; "></div>
-    <br>
-                       
-        <p style=" font-family: 'Balsamiq Sans', cursive;">  </p>
-  <div class="container">
-      <div class="row">
-          
-          <div class="col-6" >
-                <div class="card mb-2">
-                    <img class="card-img-top  animated pulse infinite slow" src="https://www.btao.in/resources/images/ourteam/rahul.jpg"
-                      alt="Card image cap">
-                    <div align="left" class="card-body">
-                      <h6 class="card-title font-weight-bold" style="font-family: 'Josefin Sans', sans-serif;">Rahul</h6>
-                      <p class="card-text" style="font-family: 'Balsamiq Sans', cursive;margin-top:-12px;font-size:10px;"><i> Desgination </i></p>
-                  
-                    </div>
-                </div>
-                    
-          </div>
-          <div class="col-6" >
-            <div class="card mb-2">
-                <img class="card-img-top  animated pulse infinite slow" src="https://www.btao.in/resources/images/ourteam/rahul.jpg"
-                  alt="Card image cap">
-                <div align="left" class="card-body">
-                  <h6 class="card-title font-weight-bold" style="font-family: 'Josefin Sans', sans-serif;">Rahul</h6>
-                  <p class="card-text" style="font-family: 'Balsamiq Sans', cursive;margin-top:-12px;font-size:10px;"><i> Desgination </i></p>
-              
-                </div>
-            </div>
-                
-      </div>
-       
-      
-      
-      </div>
-      <div class="row my-4">
-              
-            <div class="col-6" >
-              <div class="card mb-2">
-                  <img class="card-img-top  animated pulse infinite slow" src="https://www.btao.in/resources/images/ourteam/rahul.jpg"
-                    alt="Card image cap">
-                  <div align="left" class="card-body">
-                    <h6 class="card-title font-weight-bold" style="font-family: 'Josefin Sans', sans-serif;">Rahul</h6>
-                    <p class="card-text" style="font-family: 'Balsamiq Sans', cursive;margin-top:-12px;font-size:10px;"><i> Desgination </i></p>
-                
-                  </div>
-              </div>
-                  
+<div class="row justify-content-center px-3">
+    <!-- Vaibhav -->
+    <div class="col-12 mb-3">
+        <div class="modern-card p-3 bg-white shadow-sm border text-center rounded-lg">
+            <h6 class="font-weight-bold mb-1 text-dark">Vaibhav Chaudhary</h6>
+            <p class="xx-small mb-0 text-success font-weight-bold">Lead Research Scientist</p>
         </div>
-        <div class="col-6" >
-          <div class="card mb-2">
-              <img class="card-img-top  animated pulse infinite slow" src="https://www.btao.in/resources/images/ourteam/rahul.jpg"
-                alt="Card image cap">
-              <div align="left" class="card-body">
-                <h6 class="card-title font-weight-bold" style="font-family: 'Josefin Sans', sans-serif;">Rahul</h6>
-                <p class="card-text" style="font-family: 'Balsamiq Sans', cursive;margin-top:-12px;font-size:10px;"><i> Desgination </i></p>
-            
-              </div>
-          </div>
-              
     </div>
-      
-      
-      </div>
-        <div class="row my-4">
-                      
-                    <div class="col-6" >
-                        <div class="card mb-2">
-                            <img class="card-img-top  animated pulse infinite slow" src="https://www.btao.in/resources/images/ourteam/rahul.jpg"
-                              alt="Card image cap">
-                            <div align="left" class="card-body">
-                              <h6 class="card-title font-weight-bold" style="font-family: 'Josefin Sans', sans-serif;">Rahul</h6>
-                              <p class="card-text" style="font-family: 'Balsamiq Sans', cursive;margin-top:-12px;font-size:10px;"><i> Desgination </i></p>
-                          
-                            </div>
-                        </div>
-                            
-                  </div>
-                  <div class="col-6" >
-                    <div class="card mb-2">
-                        <img class="card-img-top  animated pulse infinite slow" src="https://www.btao.in/resources/images/ourteam/rahul.jpg"
-                          alt="Card image cap">
-                        <div align="left" class="card-body">
-                          <h6 class="card-title font-weight-bold" style="font-family: 'Josefin Sans', sans-serif;">Rahul</h6>
-                          <p class="card-text" style="font-family: 'Balsamiq Sans', cursive;margin-top:-12px;font-size:10px;"><i> Desgination </i></p>
-                      
-                        </div>
-                    </div>
-                        
-              </div>
-      
-      
-      </div>
-      
-       
-     </div>
+
+    <!-- Rishabh -->
+    <div class="col-12 mb-3">
+        <div class="modern-card p-3 bg-white shadow-sm border text-center rounded-lg">
+            <h6 class="font-weight-bold mb-1 text-dark">Rishabh Sharma</h6>
+            <p class="xx-small mb-0 text-success font-weight-bold">AI & Analytics Expert</p>
+        </div>
+    </div>
+
+    <!-- Gurvinder -->
+    <div class="col-12 mb-3">
+        <div class="modern-card p-3 bg-white shadow-sm border text-center rounded-lg">
+            <h6 class="font-weight-bold mb-1 text-dark">Gurvinder Singh</h6>
+            <p class="xx-small mb-0 text-success font-weight-bold">Field Advisory Lead</p>
+        </div>
+    </div>
+</div>

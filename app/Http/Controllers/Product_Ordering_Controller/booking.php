@@ -59,8 +59,8 @@ namespace App\Http\Controllers\Product_Ordering_Controller;
                       'LandMark'=>'required|max:60',
                       'city'=>'required|max:60|regex:/^[a-zA-Z\s]*$/',
                       'state'=>'required|max:60|regex:/^[a-zA-Z\s]*$/',
-                      'pincode'=>'required|digits_between:4,10',
-                      'mno'=>'required|digits:10',
+                      'pincode'=>'nullable|digits_between:4,10',
+                      'mno'=>'nullable|digits:10',
                     
                        'alternativemno'=>'nullable|digits:10',
                       'country'=>'required|max:30|regex:/^[a-zA-Z\s]*$/',
@@ -83,7 +83,10 @@ namespace App\Http\Controllers\Product_Ordering_Controller;
                
                         
 
-                $Delivery_Address=$address1.','.$address2.'<br>'.$city.','.$state.','.$country.'<br>'.$pincode.','.$mno.','.$alternativemno;
+                $Delivery_Address=$address1.','.$address2.'<br>'.$city.','.$state.','.$country;
+                if($pincode) $Delivery_Address .= '<br>Pincode: '.$pincode;
+                if($mno) $Delivery_Address .= '<br>Mobile: '.$mno;
+                if($alternativemno) $Delivery_Address .= ', '.$alternativemno;
              /* Delivery Details*/
                 $p_method=$request->input('Payment_Method');
             /* Order Details Starts Here*/

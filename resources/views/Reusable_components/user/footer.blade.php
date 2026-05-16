@@ -1,137 +1,64 @@
 <!-- Footer -->
-<footer id="footer" class="page-footer font-small  pt-4" style="background:#0a2929;">
+<footer id="footer" class="page-footer font-small pt-5 pb-4" style="background: #1a331a; color: rgba(255,255,255,0.8);">
 
-  <!-- Footer Links -->
   <div class="container text-center text-md-left">
-
-    <!-- Footer links -->
     <div class="row text-center text-md-left mt-3 pb-3">
 
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">AgroFarmZ</h6>
-        <p>AgroFarmZ Sustainable Affordable online platform. Helping to the famers creating extra revenue. Empowerment of women by giving employment as per their work.</p>
-       
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+        <h4 class="text-uppercase mb-4 font-weight-bold" style="font-family: 'Outfit', sans-serif; color: var(--secondary-color);">Agro<span class="text-white">Pest</span></h4>
+        <p style="font-family: 'Inter', sans-serif; line-height: 1.8;">Leading the way in digital agricultural advisory. Our system provides real-time identification and management strategies for insect pests, ensuring healthier crops and better yields for farmers worldwide.</p>
       </div>
-      <!-- Grid column -->
 
-      <hr class="w-100 clearfix d-md-none">
+      <hr class="w-100 clearfix d-md-none border-secondary">
 
-      <!-- Grid column -->
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-        <p>
-          <a href="{{url('Shop/Flowers-Fruits-Basket-Set')}}" target="_blank">Flowers / Fruits Basket Set </a>
-        </p>
-        <p>
-          <a href="{{url('Shop/Dusbin')}}" target="_blank">Dusbin</a>
-        </p>
-        <p>
-          <a href="{{url('Shop/Mat')}}" target="_blank">Mat</a>
-        </p>
-        <p>
-          <a href="{{url('Shop/Containers')}}" target="_blank">Containers  </a>
-        </p>
-      </div>
-      <!-- Grid column -->
-
-      <hr class="w-100 clearfix d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-        <p>
-          <a href="{{url('about')}}" target="_blank">About Us</a>
-        </p>
-       
-        <p>
-          <a href="{{url('Help')}}" target="_blank">Help</a>
-        </p>
-        <p>
-          <a href="{{url('register')}}" target="_blank">Signup</a>
-        </p>
-          <p>
-          <a href="{{url('login')}}" target="_blank">Login</a>
-        </p>
+        <h6 class="text-uppercase mb-4 font-weight-bold text-white">Diagnostic Tools</h6>
+        <p><a href="#PestDiagnostic" class="text-white-50">Symptom Checker</a></p>
+        <p><a href="#PestDiagnostic" class="text-white-50">Image Upload</a></p>
+        <p><a href="#Pests" class="text-white-50">Pest Library</a></p>
+        <p><a href="{{url('Help')}}" class="text-white-50">Expert Chat</a></p>
       </div>
 
-      <!-- Grid column -->
-      <hr class="w-100 clearfix d-md-none">
+      <hr class="w-100 clearfix d-md-none border-secondary">
 
-      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold text-white">Resources</h6>
+        <p><a href="{{url('about')}}" class="text-white-50">About Project</a></p>
+        <p><a href="#" class="text-white-50">Farmer Guides</a></p>
+        <p><a href="{{url('register')}}" class="text-white-50">Join System</a></p>
+        <p><a href="{{url('login')}}" class="text-white-50">Dashboard</a></p>
+      </div>
+
+      <hr class="w-100 clearfix d-md-none border-secondary">
+
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-        <p>
-          <i class="fas fa-home mr-3"></i>  SKU, Anantapur -515004</p>
-        <p>
-          <i class="fas fa-envelope mr-3"></i> readoyrafi1234@gmail.com</p>
-        <p>
-          <i class="fas fa-phone mr-3"></i> Rafi : +91 9177889021</p>
-        <p>
-          <i class="fas fa-phone mr-3"></i>Moni : +91 9989910822</p>
+        <h6 class="text-uppercase mb-4 font-weight-bold text-white">Contact Support</h6>
+        <p><i class="fas fa-envelope mr-3"></i> vaibhavchaudhary9912@gmail.com</p>
+        <p><i class="fas fa-phone mr-3"></i> +91 95487 99715</p>
+        <p><i class="fas fa-map-marker-alt mr-3"></i> Phagwara, Punjab, India</p>
       </div>
-      <!-- Grid column -->
 
     </div>
-    <!-- Footer links -->
 
-    <hr>
+    <hr class="border-secondary opacity-2">
 
-    <!-- Grid row -->
     <div class="row d-flex align-items-center">
-
-      <!-- Grid column -->
       <div class="col-md-7 col-lg-8">
-
-        <!--Copyright-->
-        <p class="text-center text-md-left">© 2023 Copyright:
-          <a href="#">
-            <strong>agrofarmz.com</strong>
-          </a>
-          <br>
-          <span> Developed by <a href="https://www.rahulvijayam.com" target="_blank" style=" font-family: 'Balsamiq Sans', cursive;"><u>RAFI</u></a> </span>
+        <p class="text-center text-md-left small">© 2026 Copyright:
+          <a href="#" class="text-white font-weight-bold">agrofarmz.com</a> | Developed for Agricultural Research
         </p>
-       
       </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
       <div class="col-md-5 col-lg-4 ml-lg-0">
-
-        <!-- Social buttons -->
         <div class="text-center text-md-right">
-          <ul class="list-unstyled list-inline">
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/rahulvijayam/" class="btn-floating btn-sm rgba-white-slight mx-1" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li  class="list-inline-item">
-              <a href="https://twitter.com/RahulVijayam" class="btn-floating btn-sm rgba-white-slight mx-1" target="_blank">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.instagram.com/rahulvijayam/" class="btn-floating btn-sm rgba-white-slight mx-1" target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/rahulvijayam/" class="btn-floating btn-sm rgba-white-slight mx-1" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
+          <ul class="list-unstyled list-inline mb-0">
+            <li class="list-inline-item"><a class="btn-floating btn-sm text-white mx-1"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a class="btn-floating btn-sm text-white mx-1"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a class="btn-floating btn-sm text-white mx-1"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a class="btn-floating btn-sm text-white mx-1"><i class="fab fa-linkedin-in"></i></a></li>
           </ul>
         </div>
-
       </div>
-      <!-- Grid column -->
-
     </div>
-    <!-- Grid row -->
-
   </div>
-  <!-- Footer Links -->
-
 </footer>
-<!-- Footer -->
